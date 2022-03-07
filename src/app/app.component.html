@@ -1,0 +1,13 @@
+<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
+<div class="container">
+Njoud Aldarbas
+<br><br>
+{{title}}
+<app-todos></app-todos>
+<p>-------------------------------</p>
+<h3> Counter Button </h3>
+<button (click)="counter('minus')"> - </button>
+<p>The Count :{{count}}</p>
+<button (click)="counter('add')" > + </button>
+
+<router-outlet></router-outlet>

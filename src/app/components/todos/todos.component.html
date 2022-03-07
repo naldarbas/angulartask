@@ -1,0 +1,5 @@
+<p>Todos List For Today !!</p>
+<ul *ngFor="let todo of todos">
+   <!-- How to pass variable as parameter -->
+   <app-todo [todo]="todo"> </app-todo>
+</ul>
